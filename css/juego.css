@@ -26,6 +26,7 @@ li::before {
 
 .col-40, .col-60 {
   display: table-cell;
+  box-sizing: border-box;
   margin: 0;
   vertical-align: top;
 }
@@ -37,7 +38,7 @@ li::before {
 
 .col-60 {
   background: #E84A5F;
-
+  width: 60%;
 }
 
 #flecha{
@@ -48,9 +49,32 @@ li::before {
   text-align: center;
 }
 
+#imagenObj {
+  width: 80%;
+  margin: 0 auto;
+}
+
 #juego div {
   text-align: center;
   animation: fadein 2s;
+}
+
+#juego {
+  width: 100%;
+  margin: 0 auto;
+}
+
+.piezasRompe {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+  border: 1px solid #000;
+  width: 33%;
+  float: left;
+}
+
+.piezasRompe img {
+  width: 100%;
 }
 
 @keyframes fadein {
