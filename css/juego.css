@@ -65,16 +65,15 @@ li::before {
 }
 
 .piezasRompe {
-  margin: 0px;
-  padding: 0px;
   box-sizing: border-box;
   border: 1px solid #000;
-  width: 33%;
+  width: 33.333%;
   float: left;
 }
 
 .piezasRompe img {
   width: 100%;
+  display: block;
 }
 
 @keyframes fadein {
