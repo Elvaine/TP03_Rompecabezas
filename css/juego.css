@@ -67,6 +67,10 @@ li::before {
   margin: 0 auto;
 }
 
+#pieza9 img {
+  opacity: 0
+}
+
 .piezasRompe {
   box-sizing: border-box;
   border: 1px solid #000;
